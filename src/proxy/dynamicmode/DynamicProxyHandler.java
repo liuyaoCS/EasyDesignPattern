@@ -10,7 +10,6 @@ public class DynamicProxyHandler implements InvocationHandler{
 		mSubject=subject;
 	}
 	
-	@Override
 	public Object invoke(Object proxy, Method method, Object[] args)
 			throws Throwable {
 		// TODO Auto-generated method stub
